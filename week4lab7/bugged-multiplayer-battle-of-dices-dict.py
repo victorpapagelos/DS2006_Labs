@@ -117,8 +117,8 @@ while gameover is False:
     elif choice=="D100":
         roll=rolld100
     else:
-        choice == "Defaulted to D6"
         print("Invalid choice. Defaulting to D6.")
+        roll = rollD6
 #Adds a round to the counter, starting from round 1
     rounds.append(1)
 #Prints the lenght of the rounds list, in this case the latest and largest number of that list which is the current round
