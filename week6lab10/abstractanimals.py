@@ -1,4 +1,6 @@
-class Animal():
+#Animals
+from abc import ABC, abstractmethod
+class Animal(ABC):
 
     def __init__(self, name, age, breed, owner):
         self.name = name
